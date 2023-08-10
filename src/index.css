@@ -1,0 +1,123 @@
+/* write your css here */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.title{
+    font-size: 3rem;
+    border: 7px dashed rgb(11, 11, 68) ;
+    padding: 1px 5vw;
+    /* text-align: center; */
+    margin: 6vh;
+    border-radius: 20px;
+    
+}
+
+.cards{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.card{
+    width: 400px;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px ;
+}
+
+.image{
+    width: 380px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.tour-info{
+    margin: 20px 5px ;  /*top down and left right*/
+
+}
+.tour-price{
+    margin-top: 3px;
+    color: rgb(67, 154, 67);
+    font-size: 1.3rem;
+    
+}
+
+.tour-name{
+    font-size: 1.5rem;
+    margin-bottom: 3px;
+}
+
+.read-more{
+    cursor: pointer;
+    color: rgb(56, 142, 181);
+    font-weight: bold;
+}
+
+.btn{
+    cursor: pointer;
+    margin-top: 18px;
+    padding: 10px 121px;
+    border: 1px solid rgb(232, 131, 131);
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #b4161b21;
+}
+
+.btn:hover{
+    background-color: red;
+    color: white;
+    transition: all 0.4s;
+}
+
+.refresh{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.refresh-btn{
+    border: 1px solid rgb(231, 229, 229);
+    background-color: #98919121;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 40px;
+    border-radius: 5px;
+
+
+}
+.refresh-btn:hover{
+    cursor: pointer;
+}
+
+.no-tour{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
